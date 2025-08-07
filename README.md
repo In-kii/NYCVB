@@ -93,6 +93,7 @@ Make sure your backend is running on port 8000.
 ---
 
 ## 📁 Folder Structure
+```bash
 volleyball-nyc-scraper/
 ├── main.py                  # FastAPI app
 ├── requirements.txt         # Python backend deps
@@ -107,13 +108,13 @@ volleyball-nyc-scraper/
 │   ├── index.html
 │   └── src/                 # React code
 └── README.md                # You are here!
-
+```
 ---
 
 ## 💡 Development Notes
-	•	If you get a stale element error in Selenium, it often helps to re-locate elements inside the loop, or wait longer using time.sleep()
-	•	You can edit the scraping logic in scraper/volleyball_nyc.py
-	•	Inserting into the DB is handled in database/insert_event.py
+- If you get a stale element error in Selenium, it often helps to re-locate elements inside the loop, or wait longer using time.sleep()
+- You can edit the scraping logic in scraper/volleyball_nyc.py
+- Inserting into the DB is handled in database/insert_event.py
 
 ---
 
@@ -125,6 +126,6 @@ Feel free to fork, contribute, or reach out!
 ---
 
 ## 🧪 Future Improvements
-	•	Add better duplicate filtering
-	•	Add new organization scraping
-	•	Improve health checks and debugging mechanisms
+- Add better duplicate filtering
+- Add new organization scraping
+- Improve health checks and debugging mechanisms
